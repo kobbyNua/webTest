@@ -1,0 +1,160 @@
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins/Poppins-Bold.ttf'),url('./Poppins/Poppins-Thin.ttf'),url('./Poppins//Poppins-Light.ttf'),url('./Poppins/Poppins-Regular.ttf'),url('./Poppins/Poppins-SemiBold.ttf');
+    font-weight:700
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins/Poppins-SemiBold.ttf');
+    font-weight:600
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins/Poppins-Regular.ttf');
+    font-weight:400
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins//Poppins-Light.ttf');
+    font-weight:200
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins/Poppins-Thin.ttf');
+    font-weight:100
+}
+
+
+*{padding:0px;margin:0px}
+
+body{width:100wh;height:100vh}
+
+.image-prop{background-image: url(../image/IMG-20240112-WA0002.jpg);background-size:cover;background-repeat: no-repeat;background-position: center center;height: 100vh;}
+.wrapper{background-color: #f2f4f6;width:100wh;height:100vh}
+.wrapper-1{background-color: #f2f4f6;width:100wh;height:100vh;padding:10px}
+.wrapper .row{width:100%}
+.wrapper .row .login-info-box{background-color:#fff;width:100%;height:100vh;border-top-right-radius: 20px;border-bottom-right-radius: 20px;}
+
+.login-info-box .container{padding:30px 50px}
+
+.login-info-box-header .logo{width:40%;}
+.login-info-box-body{padding-right:85px;padding-left:85px;margin-top:10px;}
+
+/*.login-info-box-form{border:1px solid #333}*/
+.login-info-box  .login-info-box-body h1{font-family: 'Poppins';font-weight: 700;font-size:30px;color:#22A45D}
+.login-info-box-form label{font-family: 'Poppins';font-size:20px;font-weight:600;}
+.login-info-box-form input{padding:12px;background-color:#f2f4f6;display: block;position: relative;border-top-right-radius: 20px;border-top-left-radius:20px;border-bottom-right-radius: 20px;border-bottom-left-radius:20px;}
+.login-info-box-form .hide{width:8%;position: absolute;right:25px;top:38px}
+.login-info-box-form input:focus{background-color:#f2f4f6;outline: none;}
+.login-info-box-form input::placeholder{font-family: 'Poppins';font-size:20px;color:#666666}
+.login-info-box-form .form-group{display: block;margin-bottom:18px;position: relative;}
+.login-info-box-form .remeber-me-and-pass{height:20px;padding-left:10px}
+.login-info-box-form .remeber-me-and-pass span{font-family: 'Poppins';font-size:12px;font-weight:600}
+.login-info-box-form .remeber-me-and-pass span a{color:#000000;border-bottom:1px solid #666666;text-decoration: none;}
+
+.login-info-box-form .remeber-me-and-pass span input[type=checkbox]{position: relative;border:none;outline:2px solid #22A45D;vertical-align: middle;bottom: 1px;}
+.login-info-box-form .remeber-me-and-pass span label{display: inline-block;color:#666666;position: relative;vertical-align: middle;top:-17px;left:20px;font-family: 'Poppins';font-size:12px;font-weight:600}
+
+.login-info-box-form button{width:100%;background-color:#22A45D !important;padding:12px;color:#fafbfc !important;border:none;font-weight:bold;border-radius:15px}
+.login-info-box-form .login-option h6{width:100%;text-align: center;border-bottom: 2px solid #666666;line-height:0.1em;margin:10px 0px 20px}
+
+.account-notice{margin-top:5px;padding-left:6px;padding-right:6px;}
+.account-notice,.login-option{margin-bottom:20px}
+.account-notice p{font-family: 'Poppins';font-size:12px;font-weight:400;color:#666666}
+.account-notice a{margin-left:15px;color:#22A45D;text-decoration: none;}
+.login-info-box-form .login-option h6 span{background-color: #fff;padding:0px 10px;color:#000000;font-family: 'poppins';font-weight:400;font-size:15px}
+
+.logim-option-2{padding-right:25px;padding-left:25px}
+.logim-option-2 .social-login{width:27%;float:left;margin-right:20px ;border:1px solid #ccc;padding:5px;text-align:center;border-top-left-radius: 22px;border-top-right-radius: 22px;border-bottom-left-radius: 22px;border-bottom-right-radius: 22px;}
+.logim-option-2 .social-login img{width:35%}
+
+.navbar{background-color:#fafbfc !important}
+.navbar .navbar-brand{width:70%}
+.navbar .navbar-brand .logo{width:100%;}
+#search{display: block;position: relative;}
+.bar-hide{width:8%;position: absolute;right:250px;top:25px;border:1px solid #ccc}
+/*#img-ho{width:14%}
+.collapse img.bar-hide-2{width:100%}
+.collapse img.brand{width:18%;margin-left:35px}*/
+
+.main-container{width:100%;height:100vh;overflow-y: hidden;}
+.sidebar,.content{position: absolute;}
+.sidebar{margin:0px;padding:40px;height:inherit;background-color: #fff;overflow: auto;width:20%;left:0px}
+.sidebar .sidebar-header{padding-bottom:30px ;font-family: "Poppins";font-size: 30px;font-weight: 600;}
+.sidebar .sidebar-header h5{text-transform: uppercase;color:#22A45D}
+.sidebar .sidebar-menu ul{list-style: none;padding-left:8px}
+.sidebar .sidebar-menu ul li a{color:#000000;text-decoration: none;font-family: "Poppins";font-size: 15px;font-weight: 600;}
+.sidebar .sidebar-menu ul li a.active{color:#22A45D}
+.content{width:80%;right:0px;padding:15px;height:inherit}
+.content-header{width:100%;padding:10px;background-color:#ffffff;box-shadow: 0.3em 0.4em 0.5em #666666;margin-bottom: 20px;}
+.content-header .holder{width:50%;;background-color: #ffff;border-top-right-radius: 5px;border-top-left-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;box-shadow: 0.2em -0.2em 0.3em #666666;text-align:center;padding:10px}
+.content-header img{width:100%}
+.content-header .logo-file{width:15%;}
+.content-header  .logo-title{width:80%;}
+.content-body{width:100%;border-radius: 5px;background-color:#ffffff;box-shadow: 0.3em 0.4em 0.5em #666666;padding-top:15px;padding-bottom: 15px;}
+
+.content h1{font-family:'Poppins';font-weight:600;font-size:25px;color:#000000}
+.content h4{font-family:'Poppins';font-weight:600;font-size:25px;color:#000000}
+.content-body-menu{width:100%;padding-left:10px;padding-right:10px}
+.content-menu-tab{width:100%;padding-left:0px;padding-right:0px;}
+.content .profile{width:110px;height:110px;margin:40px auto}
+.content-nav-tabs{padding-right:10px;padding-left:10px}
+.nav.nav-pills{width:100%;border-bottom: 2px solid #f6f6f8;}
+.nav.nav-pills a{font-family: "Poppins";font-size: 12px;font-weight: 600;color:#000000;padding-bottom:15px;position: relative;margin-right: 20px;text-decoration: none;}
+.nav.nav-pills  a.active{border-bottom:1px solid #22A45D;background-color: #fff;color:#000000;border-radius: 0px;}
+.content .profile-image{width:110px;height:110px;border-radius:50%;; border:2px solid #22A45D} 
+.content-forms .form-group{margin-bottom: 5;}
+.content-forms .choose-image{width:100%;display: block;margin-top:15px}
+.content-forms .choose-image .web-cam{width:50%;text-align:center}
+.content-forms .choose-image .web-cam label img{width:25px;height:25px;}
+.content-forms .choose-image .upload-photo{width:50%;text-align:center}
+.content-forms .choose-image .upload-photo #upload{display: none;visibility: hidden;}
+
+.content-forms .choose-image .upload-photo label img{width:25px;height:25px;cursor:pointer;}
+.content-forms input{border:1px solid #ccc;border-radius:2px}
+.content-forms textarea{border:1px solid #ccc;border-radius:2px}
+.content-forms label{font-family: 'Poppins';font-size: 12px;font-weight:600}
+.content-forms .gender{padding-left:21px}
+.content-forms .gender h6{font-family: "Poppins";font-size: 12px;font-weight: 600;}
+.content-forms .gender span{margin-right: 15px;font-family: "Poppins";font-size: 12px;font-weight: 400;}
+.content-forms .gender input{background-color: #22A45D;}
+.content-forms #reset,#save{padding:0.5px;width:70px;border-radius: 10px;border:none}
+.content-forms #reset{background-color: #22A45D;color:#fafbfc}
+.content-forms #save{background-color: #ffffff;border: 1px solid #22A45D; font-family: "Poppins";font-size: 12px;font-weight: 400;}
+.register-form{width:450px;background-color: #ffff;border-radius: #fff;padding:25px;margin:20px auto}
+
+.register-form input{padding:7px;border-radius:0px;background-color: #f6f6f8;}
+.register-form select{padding:7px;border-radius:0px;background-color: #f6f6f8;}
+.register-form button{padding:7px;width:20%;background-color: #22A45D;color:#f6f6f8;border:none}
+.register-form label{font-family: "Poppins";font-size: 15px;font-weight: 600;}
+
+
+.modal-body-header{padding:15px}
+#resopnseBox .modal-dialog{width:400px;border-radius: 0px;}
+.modal-dialog .btn-close{font-size:12px}
+
+.modal-body-message{padding:30px 20px 20px 30px}
+
+.modal-body-message span{font-size:12em;color:#22A45D}
+.modal-body-message p{font-family: "Poppins";font-size: 15px;font-weight:600}
+.image-profile{text-align: center;}
+.image-profile img{width:150px;height:150px;border:1px solid #22A45D;border-radius:50%}
+#props label,#prop label{font-family: "Poppins";font-size: 15px;font-weight:600;color:#000000}
+
+.pills-tabContent table tr td{font-family: "Poppins";font-size: 15px;font-weight:600;color:#666666}
+/*.login-info-box  .login-info-box-body{padding-right:65px;padding-left:65px}
+
+
+
+
+
+.login-info-box-form label{font-size:20px;font-weight: bold;}
+.login-info-box-form input{border:1px solid #ccc;background-color:#f6f6f8;border-radius:15px}
+
+.login-info-box-form button{width:100%;background-color:#22A45D !important;color:#fafbfc !important;font-weight:bold;border-radius:15px}
+
+.account-notice p span{margin-left:15px}
+*/ 
+
+/**/
