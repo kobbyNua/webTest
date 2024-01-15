@@ -19,13 +19,13 @@
                             <div class="col-md-6 col-12 mb-3">
                                    <div class="form-group">
                                           <label for="fname">First Name</label>
-                                          <input type="text" id="fname" placeholder="First Name" class="form-control" name="fname">
+                                          <input type="text" id="fname" required placeholder="First Name" class="form-control" name="fname">
                                    </div>
                             </div>
                             <div class="col-md-6 col-12 mb-3">
                                    <div class="form-group">
                                           <label for="lname">last Name</label>
-                                          <input type="text" id="lname" placeholder="last Name" class="form-control" name="lname">
+                                          <input type="text" id="lname" required placeholder="last Name" class="form-control" name="lname">
                                    </div>
                             </div>
                        </div>
@@ -33,20 +33,20 @@
                             <div class="col-md-12 col-12 mb-3">
                                    <div class="form-group">
                                           <label for="uname">Username</label>
-                                          <input type="text" id="uname" placeholder="Username" class="form-control" name="username">
+                                          <input type="text" id="uname" required placeholder="Username" class="form-control" name="username">
                                    </div>
                             </div>
 
                             <div class="col-md-12 col-12 mb-3">
                                    <div class="form-group">
                                           <label for="email">Email</label>
-                                          <input type="email" id="email" placeholder="Email" class="form-control" name="email">
+                                          <input type="email" id="email" required placeholder="Email" class="form-control" name="email">
                                    </div>
                             </div>
                             <div class="col-md-12 col-12 mb-3">
                                    <div class="form-group">
                                           <label for="role">Role</label>
-                                          <select class="form-control" id="role" name="role">
+                                          <select class="form-control" required id="role" name="role">
                                                  <option>Adminstrator</option>
                                                  <option>Staff</option>
                                                  <option>farmer</option>
@@ -56,7 +56,7 @@
                             <div class="col-md-12 col-12 mb-3">
                                    <div class="form-group">
                                           <label for="password">Password</label>
-                                          <input type="password" id="password" placeholder="Password" class="form-control" name="password">
+                                          <input type="password" required id="password" placeholder="Password" class="form-control" name="password">
                                           <span class="pass-error"></span>
                                    </div>
                             </div>
