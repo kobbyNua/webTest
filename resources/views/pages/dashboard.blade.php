@@ -315,6 +315,7 @@
                      <div class="modal-content">
                             <div class="modal-body">
                                  <div class="modal-body-header">
+                                      <h5 class="modal-title">Farmer Profile</h5>
                                       <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="close"></button>
                                  </div>
                                  <div class="modal-body-message" style="text-align:center">
