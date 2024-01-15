@@ -16,7 +16,7 @@ $(document).ready(function(){
                    
                     if(data.status == "success"){
                         $(".modal-body-message").html("<span class='fas fa-spin fa-spinner'></span><p class='mt-3 mb-3'>"+data.success+"</p>")
-                        window.location=" "
+                        window.location="/login/"
                     }
                     else if(data.status == "error"){
                         $(".modal-body-message").html("<span class='fas fa-spin fa-spinner' style='color:red !important'></span><p class='mt-3 mb-3'>"+data.error+"</p>")

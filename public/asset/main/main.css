@@ -72,8 +72,8 @@ body{width:100wh;height:100vh}
 .navbar{background-color:#fafbfc !important}
 .navbar .navbar-brand{width:70%}
 .navbar .navbar-brand .logo{width:100%;}
-#search{display: block;position: relative;}
-.bar-hide{width:8%;position: absolute;right:250px;top:25px;border:1px solid #ccc}
+#search{display: block;position: relative;border:1px solid #ccc}
+.bar-hide{width:8%;position: absolute;right:250px;top:25px;}
 /*#img-ho{width:14%}
 .collapse img.bar-hide-2{width:100%}
 .collapse img.brand{width:18%;margin-left:35px}*/
