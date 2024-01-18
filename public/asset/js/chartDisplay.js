@@ -78,16 +78,20 @@ var options = {
   var baroptions = {
     series: [{
     name: 'Net Profit',
-    data: [44, 55, 57, 56, 61, 58, 63, 60, 66]
+    data: [44, 55, 57, 56, 61, 58, 63, 60, 66,30]
   }],
     chart: {
     type: 'bar',
-    height: 350
+    height: 150
+  },
+  toolbar:{
+     show:true
   },
   plotOptions: {
     bar: {
       horizontal: false,
-      columnWidth: '55%',
+      columnWidth: '25%',
+      
       endingShape: 'rounded'
     },
   },
@@ -100,11 +104,11 @@ var options = {
     colors: ['transparent']
   },
   xaxis: {
-    categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    categories: ['1d', '2d', '3d', '4d', '5d', '6d', '7d', '8d', '9d','10d'],
   },
   yaxis: {
     title: {
-      text: '$ (thousands)'
+      text: ''
     }
   },
   fill: {
@@ -116,7 +120,13 @@ var options = {
         return "$ " + val + " thousands"
       }
     }
-  }
+  },
+  yaxis:{show:false},
+  grid:{
+    yaxis:{
+      lines:{show:false}
+     }
+   }
   };
 
   var barchart = new ApexCharts(document.querySelector("#bar_column_group"), baroptions);
