@@ -33,10 +33,19 @@ class PageController extends Controller
          return view('pages/lopps',['title'=>'auth']);
     }
     function dashboard(){
+        if(Auth::check())
+        {
+            $user=Auth::user();
+            return view('pages/dashboard',['title'=>'Dashboard','user'=>$user]);
+        } else{
+            return redirect('/auth/');
+        } 
+    }
+    function farmersDashboard(){
         if(Auth::check()){
             $user=Auth::user();
             $data=DB::table('farmers')->get();
-            return view('pages/dashboard',['title'=>'farmers','data'=>$data,'user'=>$user]);
+            return view('pages/farmers',['title'=>'farmers','data'=>$data,'user'=>$user]);
         }
         else{
             return redirect('/auth/');

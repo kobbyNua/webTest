@@ -21,6 +21,7 @@ Route::get('/',[PageController::class,'login']);
 Route::get('auth/',[PageController::class,'login']);
 //Route::get('login/',[PageController::class,'auth']);
 Route::get('dashboard/',[PageController::class,'dashboard']);
+Route::get('farmers/',[PageController::class,'farmersDashboard']);
 Route::get('register/',[PageController::class,'register']);
 Route::post('login/',[PageController::class,'user_auth']);
 Route::get('logout/',[PageController::class,'logout']);
